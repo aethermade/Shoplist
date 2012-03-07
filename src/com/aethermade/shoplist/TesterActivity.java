@@ -1,4 +1,4 @@
-package test.example;
+package com.aethermade.shoplist;
 
 import java.io.IOException;
 

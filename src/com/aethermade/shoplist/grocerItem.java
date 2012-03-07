@@ -1,4 +1,4 @@
-package test.example;
+package com.aethermade.shoplist;
 
 public class grocerItem {
 	String name;	
