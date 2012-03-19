@@ -16,21 +16,22 @@ public class Shoplist extends Activity {
     }
     
     public void onResume(){
-
+    	super.onResume();
     	Log.i(tag, "onResume");
     }
     
     public void onPause(){
-
+    	super.onPause();
     	Log.i(tag, "onPause");
     }
     
     public void onStop(){
-
+    	super.onStop();
     	Log.i(tag, "onStop");
     }
     
     public void onDestroy(){
+    	super.onDestroy();
     	Log.i(tag, "onDestroy");
     }
 }
