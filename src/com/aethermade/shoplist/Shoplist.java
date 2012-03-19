@@ -6,7 +6,7 @@ import android.util.Log;
 
 public class Shoplist extends Activity {
 	
-	final String tag = this.getPackageName()+this.getLocalClassName();
+	final String tag = "com.aethermade.shoplist.Shoplist";
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
