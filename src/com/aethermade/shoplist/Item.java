@@ -1,6 +1,6 @@
 package com.aethermade.shoplist;
 
-public class grocerItem {
+public class Item {
 	String name;	
 	double price;
 	int quanity;
