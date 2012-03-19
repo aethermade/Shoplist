@@ -1,0 +1,8 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE lists(name varchar(40), id int, type varchar(20));
+INSERT INTO "lists" VALUES('kevin list',0,'event');
+INSERT INTO "lists" VALUES('anthony list',1,'weekly');
+INSERT INTO "lists" VALUES('gerocery list',2,'personal');
+INSERT INTO "lists" VALUES('zombie list',3,'zombie apoclypse');
+COMMIT;
