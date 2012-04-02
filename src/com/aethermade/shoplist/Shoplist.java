@@ -3,6 +3,7 @@ package com.aethermade.shoplist;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ListView;
 
 public class Shoplist extends Activity {
 	
@@ -13,6 +14,9 @@ public class Shoplist extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     	Log.i(tag, "onCreate");
+    	//this is where i am going to put ListView stuff to try    	
+    	ListView listView = (ListView) findViewById(R.id.homelistview);
+    	//Cursor c = 
     }
     
     public void onResume(){
