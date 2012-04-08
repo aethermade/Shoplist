@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, Shoplist!</string>
-    <string name="app_name">Shoplist</string>
+    <string name="hello">Hello World, TestingActivity! Phone about to explode!!</string>
+    <string name="app_name">ShopList</string>
+    <string name="random">alksjdf</string>
 
 </resources>
